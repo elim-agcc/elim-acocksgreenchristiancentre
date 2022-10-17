@@ -1,0 +1,532 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Mulish', sans-serif;
+}
+
+.header-logo {
+  max-width: 150px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #950d2a, #a84a0f);
+  padding: 30px 0px;
+  transition-duration: 0.6s;
+}
+
+.navbar-brand {
+  color: white!important;
+}
+
+.nav-link {
+  color: white!important;
+  display: block;
+}
+
+.nav-link:hover {
+  color: rgb(255, 0, 212)!important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background: #a84a0f;
+}
+
+.dropdown-item {
+  color: white!important;
+}
+
+.dropdown-item:hover {
+  color: rgb(255, 0, 212)!important;
+}
+
+.dropdown-item.active{
+  background:#a84a0f;
+}
+
+.dropdown-menu-right {
+  right: 0 !important;
+  left: auto !important;
+}
+
+.scroll_navbar {
+  padding: 10px 0px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.6s;
+}
+
+.parallax-header {
+  background: #000;
+  background: linear-gradient(
+    rgba(0, 0 , 0, 0.3),
+    rgba(0, 0 , 0, 0.8)
+  ),
+  url(images/AcocksGreenElim.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.el_pb_text_0 {
+  font-weight: 900;
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
+}
+
+.el_pb_text_0 h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #aeb8b8!important;
+  letter-spacing: 4px;
+  line-height: 1.2em;
+}
+
+.el_pb_text_1 {
+  font-size: 18px;
+  line-height: 1.8em;
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
+}
+
+.el_pb_text_inner {
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #950d2a;
+}
+
+.el_pb_text_1 h1 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.3em;
+}
+
+.btn, .btn-primary {
+  background: #a84a0f;
+  border-color: #a84a0f;
+}
+
+.btn-primary:hover {
+  background: #a84a0f;
+  border-color: #a84a0f;
+}
+
+.btn-primary:focus {
+  background: #a84a0f;
+  border-color: #a84a0f;
+}
+
+.btn-primary::before {
+  background: #a84a0f;
+  border-color: #a84a0f;
+  transition-duration: 0.3s;
+}
+
+.btn-primary::after {
+  background: #a84a0f;
+  border-color: #a84a0f;
+  transition-duration: 0.3s;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  background: #a84a0f;
+  border-color: #a84a0f;
+}
+
+.el_h3_header {
+  color: #fff;
+  font-weight: 700!important;
+  line-height: 1.5em!important;
+}
+
+.et_div_right {
+  background: #950d2a;
+}
+
+.et_left_outer_div {
+  padding: 0 30px;
+}
+
+.et_right_outer_div {
+  padding: 0 20px;
+}
+
+.et_text_2 {
+  font-weight: 500;
+  color: #fff;
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
+}
+
+p {
+  overflow-wrap: break-word;
+  text-align: justify;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.4);
+  font-size: 17px;
+  font-weight: 500!important;
+  letter-spacing: 1px;
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.4);
+  font-size: 17px;
+  font-weight: 500!important;
+  letter-spacing: 1px;
+}
+
+.btn-default::before {
+  color: #fff;
+  background-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.4);
+  font-size: 17px;
+  font-weight: 500!important;
+  letter-spacing: 1px;
+}
+
+.btn-default::after {
+  color: #fff;
+  background-color: rgba(255,255,255,0.4);
+  border-color: rgba(255,255,255,0.4);
+  font-size: 17px;
+  font-weight: 500!important;
+  letter-spacing: 1px;
+}
+
+.content {
+  margin-top: -80px;
+  box-shadow: 0 0 20px -6px rgba(0, 0 , 0, 0.2);
+}
+
+.content .left {
+  padding-bottom: 20px;
+}
+
+.content .right {
+  padding-bottom: 20px;
+}
+
+#footer {
+  background: #950d2a;
+}
+
+.footer-logo {
+  max-width: 150px;
+}
+
+.footer-row {
+  min-height: 200px;
+}
+
+.et-footer {
+  padding-left: 50px;
+}
+
+a:hover .footer-logo {
+	opacity: .6;
+}
+
+.et-footer-text {
+  color: #FFF;
+}
+
+.home-2 {
+  background: #FFF;
+  background: linear-gradient(
+    rgba(0, 0 , 0, 0.3),
+    rgba(0, 0 , 0, 0.8)
+  ),
+  url(/images/Cross.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-left-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-right-color: rgba(255, 255, 255, 0.5);
+  min-width: 80%;
+}
+
+.card-outer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cb1 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-text {
+  color: #fff;
+  font-weight: 500!important;
+  line-height: 1.5em!important;
+}
+
+.card-inner {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-inner h2 {
+  color: #fff;
+  padding-bottom: 1em;
+
+}
+
+.card-inner h5 {
+  color: #fff;
+  padding-bottom: 0.5em;
+
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: block;
+  -ms-flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row wrap;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content-container.center, .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-image-container.center {
+  -webkit-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h1, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h2.et_pb_module_header, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h3.et_pb_module_header, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h4.et_pb_module_header, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h5.et_pb_module_header, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h6.et_pb_module_header {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1.5em;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_0 {
+  background-image: url(/images/worship.jpg);
+  background-color: #afafaf;
+  min-height: 400px;
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_1 {
+  background-image: url(/images/resurrection-cross.jpg);
+  background-color: #afafaf;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  min-height: 400px;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_2 {
+  background-image: url(/images/woods.jpg);
+  background-color: #afafaf;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  min-height: 400px;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_3 {
+  background-image: url(/images/our-beliefs.jpg);
+  background-color: #afafaf;
+  margin-top: 110px;
+  min-height: 500px;
+}
+
+.et_had_animation {
+  position: relative;
+}
+.et_pb_module {
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+}
+.et_pb_fullwidth_header {
+  padding: 50px 0;
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+}
+.et_pb_text_align_center {
+  text-align: center;
+}
+.et_pb_bg_layout_dark, .et_pb_bg_layout_dark h1, .et_pb_bg_layout_dark h2, .et_pb_bg_layout_dark h3, .et_pb_bg_layout_dark h4, .et_pb_bg_layout_dark h5, .et_pb_bg_layout_dark h6 {
+  color: #fff!important;
+}
+.et_pb_all_tabs, .et_pb_column, .et_pb_counters .et_pb_counter_container, .et_pb_module, .et_pb_portfolio_item, .et_pb_posts_nav a, .et_pb_pricing_table, .et_pb_row, .et_pb_row_inner, .et_pb_slide, .et_pb_tab, .et_pb_with_background {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+}
+
+.et_pb_section_1.et_pb_section {
+  padding-bottom: 150px;
+  background-color: #ffffff!important;
+}
+.et_pb_section {
+  position: relative;
+  background-color: #fff;
+}
+.et_pb_section, .et_pb_slider .et_pb_slide {
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}
+
+.joining-col {
+  padding-top: 30px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+.encounter-col {
+  padding-top: 30px;
+}
+
+.encounter-text-align {
+  padding-top: 25%;
+  padding-left: 30px;
+  padding-right: 70px;
+}
+
+.learning-col {
+  padding-top: 30px;
+}
+
+.learning-row {
+  padding-top: 70px;
+}
+
+.learning-image {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+}
+
+.learning-image1 {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+}
+
+.learning-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learning-text-align {
+  vertical-align: middle;
+  padding-top: 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.square-box {
+  min-height: 100%;
+}
+
+.card-custom-text {
+  color: #950d2a;
+  font-weight: 500!important;
+  line-height: 1.5em!important;
+  margin-bottom: 0px;
+}
+
+.beliefs-col {
+  padding-top: 30px;
+}
+
+.community-image {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+}
+
+.vision-row {
+  margin-top: 30px;
+}
+
+.encounter-image {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+  width: 380px;
+  height: auto;
+}
+
+.discipleship-image {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+  width: 380px;
+  height: auto;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_4 {
+  background-color: transparent;
+  margin-top: 50px;
+  min-height: 100px;
+}
+
+.et_pb_fullwidth_header.et_pb_fullwidth_header_5 {
+  background-image: url(/images/leadership1.jpg);
+  background-color: #afafaf;
+  min-height: 500px;
+  margin-top: 110px;
+}
+
+.user-pic {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+}
