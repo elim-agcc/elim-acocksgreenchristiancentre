@@ -348,7 +348,7 @@ html.is-animating .transition-fade {
 }
 
 .et_pb_fullwidth_header.et_pb_fullwidth_header_0 {
-  background-image: url(/images/worship.jpg);
+  background-image: url(../images/worship.jpg);
   background-color: #afafaf;
   min-height: 400px;
   padding-top: 250px;
@@ -356,7 +356,7 @@ html.is-animating .transition-fade {
 }
 
 .et_pb_fullwidth_header.et_pb_fullwidth_header_1 {
-  background-image: url(/images/resurrection-cross.jpg);
+  background-image: url(../images/resurrection-cross.jpg);
   background-color: #afafaf;
   padding-top: 250px;
   padding-bottom: 150px;
@@ -364,7 +364,7 @@ html.is-animating .transition-fade {
 }
 
 .et_pb_fullwidth_header.et_pb_fullwidth_header_2 {
-  background-image: url(/images/woods.jpg);
+  background-image: url(../images/woods.jpg);
   background-color: #afafaf;
   padding-top: 250px;
   padding-bottom: 150px;
@@ -372,7 +372,7 @@ html.is-animating .transition-fade {
 }
 
 .et_pb_fullwidth_header.et_pb_fullwidth_header_3 {
-  background-image: url(/images/our-beliefs.jpg);
+  background-image: url(../images/our-beliefs.jpg);
   background-color: #afafaf;
   margin-top: 110px;
   min-height: 500px;
@@ -519,7 +519,7 @@ h2 {
 }
 
 .et_pb_fullwidth_header.et_pb_fullwidth_header_5 {
-  background-image: url(/images/leadership1.jpg);
+  background-image: url(../images/leadership1.jpg);
   background-color: #afafaf;
   min-height: 500px;
   margin-top: 110px;
