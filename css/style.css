@@ -249,7 +249,7 @@ a:hover .footer-logo {
     rgba(0, 0 , 0, 0.3),
     rgba(0, 0 , 0, 0.8)
   ),
-  url(/images/Cross.jpg);
+  url(../images/Cross.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
