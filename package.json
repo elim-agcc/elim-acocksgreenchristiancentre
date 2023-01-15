@@ -1,0 +1,24 @@
+{
+  "name": "elim-acocksgreenchristiancentre.org",
+  "version": "1.0.0",
+  "description": "elim-agcc website",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "swup": "^2.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elim-agcc/elim-acocksgreenchristiancentre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elim-agcc/elim-acocksgreenchristiancentre/issues"
+  },
+  "homepage": "https://github.com/elim-agcc/elim-acocksgreenchristiancentre#readme"
+}
