@@ -549,3 +549,134 @@ h2 {
     padding-right: 0px;
   }
 }
+
+@media (min-width: 901px) and (max-width: 1180px) {
+  .parallax-header-1180 {
+    background: #000;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/AcocksGreenElim.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1180px 600px;
+  }
+
+  .home-2-1180 {
+    background: #FFF;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/Cross.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parallax-header-500 {
+    background: #000;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/AcocksGreenElim.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px 400px;
+    min-height: 400px;
+  }
+
+  .home-2-500 {
+    background: #FFF;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/Cross.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .parallax-header-800 {
+    background: #000;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/AcocksGreenElim.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 800px 600px;
+    min-height: 600px;
+  }
+
+  .home-2-800 {
+    background: #FFF;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/Cross.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+  .parallax-header-900 {
+    background: #000;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/AcocksGreenElim.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 900px 600px;
+    min-height: 600px;
+  }
+
+  .home-2-900 {
+    background: #FFF;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/Cross.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .home-2-1400 {
+    background: #FFF;
+    background: linear-gradient(
+      rgba(0, 0 , 0, 0.3),
+      rgba(0, 0 , 0, 0.8)
+    ),
+    url(../images/Cross.jpg);
+    background-attachment: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+  }
+}
