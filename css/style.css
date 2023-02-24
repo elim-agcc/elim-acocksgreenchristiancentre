@@ -459,7 +459,18 @@ h2 {
   box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
 }
 
+.learning-image2 {
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0 , 0, 0.8);
+}
+
 .learning-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learning-image2 img {
   max-width: 100%;
   height: auto;
 }
