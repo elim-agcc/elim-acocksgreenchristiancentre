@@ -536,6 +536,13 @@ h2 {
   margin-top: 110px;
 }
 
+.et_pb_fullwidth_header.et_pb_fullwidth_header_6 {
+  background-image: url(../images/CalendarBanner.jpg);
+  background-color: #afafaf;
+  min-height: 400px;
+  margin-top: 110px;
+}
+
 .user-pic {
   position: relative;
   transition: .3s;
@@ -555,6 +562,10 @@ h2 {
   margin-top: 20px;
 }
 
+.cal-view {
+  width: 800px;
+}
+
 @media screen and (max-width: 600px) {
   .pad-row {
     padding-top: 30px;
@@ -562,6 +573,9 @@ h2 {
   .encounter-col-padding {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .cal-view {
+    width: 500px;
   }
 }
 
@@ -590,6 +604,11 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
+  }
+
+  .cal-view {
+    width: 800px;
+    margin-bottom: 10px;
   }
 }
 
@@ -620,6 +639,11 @@ h2 {
     background-size: cover;
     min-height: 500px;
   }
+
+  .cal-view {
+    width: 350px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
@@ -648,6 +672,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
+  }
+
+  .cal-view {
+    width: 600px;
   }
 }
 
@@ -678,6 +706,11 @@ h2 {
     background-size: cover;
     min-height: 500px;
   }
+
+  .cal-view {
+    width: 800px;
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1400px) {
@@ -693,5 +726,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
+  }
+
+  .cal-view {
+    width: 800px;
+    margin-bottom: 10px;
   }
 }
